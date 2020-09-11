@@ -6,5 +6,6 @@ This is under construction and extreme caution should be used running it.  Take 
 ```
 wget -q https://raw.githubusercontent.com/Geordie-R/trac-delete-logs/master/deletelogs.sh -O deletelogs.sh
 chmod +x deletelogs.sh
+./deletelogs.sh
 ```
 

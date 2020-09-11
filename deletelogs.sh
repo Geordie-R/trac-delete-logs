@@ -19,4 +19,6 @@
 shopt -s globstar dotglob
 cd /var/lib/docker/overlay2
 ls -lS **/*.log | grep "otnode" | awk  '{print $9}' | xargs rm -f
+# Now restart the node
+docker restart otnode
 
